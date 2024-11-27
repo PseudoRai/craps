@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #CC9B6D;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #F1CA89;
+}
+
+p {
+  font-size: 2rem;
+  color: #F1CA89;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 50%;
+}
+
+h2, span {
+  margin-bottom: 0px;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.scores {
+  margin-bottom: 8px;
+  font-size: 1.55rem;
+  font-weight:bolder;
+}
+
+#roll-again {
+  width: 80px;
+}
+input {
+  width: 120px;
+}

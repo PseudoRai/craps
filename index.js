@@ -1,23 +1,34 @@
 // global variables
         var randomNumber1 = 0;
+        
         var randomNumber2 = 0;
+        
         var firstRoll = 0;
+
         var secondRoll = 0;
+
         var wins = 0;
+
         var loses = 0;
 
 
 // create random number then assign a matching dice image to it
 function rollDice(){
         randomNumber1 = Math.floor(Math.random() * 6) + 1;
+
         var randomDiceImage = "dice" + randomNumber1 + ".png";
+
         var randomImageSource = "images/" + randomDiceImage;
+
         var image1 = document.querySelectorAll("img")[0]
+
         image1.setAttribute("src", randomImageSource);
 
 
         randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
         var randomImageSource2 = "images/dice" + randomNumber2 + ".png";  
+
         document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
         document.querySelector("h2").innerHTML = 'Press "Roll Again" to have another try';
         document.querySelector("button").innerHTML = 'Roll Again';
@@ -80,6 +91,8 @@ function initialRoll() {
 
 // follow up roll 
 function followUpRoll(){
+        // console.log("going to follow up roll");
+    
         
         rollDice();
         

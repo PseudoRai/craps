@@ -1,4 +1,5 @@
 body {
+  background-color: #384B70;
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -15,21 +16,17 @@ body {
   display: inline-block;
 }
 
-body {
-  background-color: #CC9B6D;
-}
-
 h1 {
   margin-bottom: 0px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
-  color: #F1CA89;
+  color: #D3EE98;
 }
 
 p {
   font-size: 2rem;
-  color: #F1CA89;
+  color: #FCFAEE;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -39,7 +36,7 @@ img {
 
 h2, span {
   margin-bottom: 0px;
-  color: #EEEEEE;
+  color: #FCFAEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
@@ -51,10 +48,18 @@ h2, span {
 }
 
 #roll-again {
-  width: 80px;
+  font-weight: 600;
+  color: #FCFAEE;
+  background-color: #158a00;
+  width: 85px;
+  height: 25px;
 }
 input {
-  width: 120px;
+  font-weight: 600;
+  background-color: rgb(255, 102, 0);
+  color: #FCFAEE;
+  width: 125px;
+  height: 27px;
 }
 
 @media (max-width: 515px) {

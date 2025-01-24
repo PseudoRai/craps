@@ -36,17 +36,17 @@ function rollDice(){
 
 function winning(){
         if (wins === 1){
-                return "win";
+                return "Win";
         } else {
-                return "wins";
+                return "Wins";
         }
         console.log(wins)
 }
 function losing(){
         if (loses === 1) {
-                return "lose";
+                return "Lose";
         }else {
-                return "loses";
+                return "Loses";
         } 
 }
         
